@@ -1688,7 +1688,7 @@
     (property "Farnell-Nr." "" (id 6) (at -0.635 -17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLCPCB-Nr." "" (id 7) (at -0.635 -19.685 0)
+    (property "JLCPCB-Nr." "C6500862" (id 7) (at -0.635 -19.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "DC-DC Buck converter" (id 8) (at 0 0 0)
