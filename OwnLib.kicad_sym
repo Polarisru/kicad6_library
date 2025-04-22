@@ -3721,10 +3721,6 @@
         (stroke (width 0.254) (type default))
         (fill (type background))
       )
-      (pin free line (at -22.86 -17.78 0) (length 5.08) hide
-        (name "RESV_NC_1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
       (pin passive line (at -22.86 6.35 0) (length 5.08)
         (name "CLKSEL0" (effects (font (size 1.27 1.27))))
         (number "10" (effects (font (size 1.27 1.27))))
@@ -3732,14 +3728,6 @@
       (pin passive line (at -22.86 13.97 0) (length 5.08)
         (name "NRST" (effects (font (size 1.27 1.27))))
         (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin free line (at -22.86 -17.78 0) (length 5.08) hide
-        (name "RESV_NC_4" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-      (pin free line (at -22.86 -17.78 0) (length 5.08) hide
-        (name "RESV_NC_5" (effects (font (size 1.27 1.27))))
-        (number "13" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at -22.86 -3.81 0) (length 5.08)
         (name "H_INTN" (effects (font (size 1.27 1.27))))
@@ -3773,22 +3761,6 @@
         (name "H_SDA/H_MISO/TX_" (effects (font (size 1.27 1.27))))
         (number "20" (effects (font (size 1.27 1.27))))
       )
-      (pin free line (at -22.86 -17.78 0) (length 5.08) hide
-        (name "RESV_NC_6" (effects (font (size 1.27 1.27))))
-        (number "21" (effects (font (size 1.27 1.27))))
-      )
-      (pin free line (at -22.86 -17.78 0) (length 5.08) hide
-        (name "RESV_NC_7" (effects (font (size 1.27 1.27))))
-        (number "22" (effects (font (size 1.27 1.27))))
-      )
-      (pin free line (at -22.86 -17.78 0) (length 5.08) hide
-        (name "RESV_NC_8" (effects (font (size 1.27 1.27))))
-        (number "23" (effects (font (size 1.27 1.27))))
-      )
-      (pin free line (at -22.86 -17.78 0) (length 5.08) hide
-        (name "RESV_NC_9" (effects (font (size 1.27 1.27))))
-        (number "24" (effects (font (size 1.27 1.27))))
-      )
       (pin passive line (at 20.32 -17.78 180) (length 5.08)
         (name "GND_2" (effects (font (size 1.27 1.27))))
         (number "25" (effects (font (size 1.27 1.27))))
@@ -3820,14 +3792,6 @@
       (pin passive line (at -22.86 11.43 0) (length 5.08)
         (name "PS0/WAKE" (effects (font (size 1.27 1.27))))
         (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin free line (at -22.86 -17.78 0) (length 5.08) hide
-        (name "RESV_NC_2" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin free line (at -22.86 -17.78 0) (length 5.08) hide
-        (name "RESV_NC_3" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 20.32 11.43 180) (length 5.08)
         (name "CAP" (effects (font (size 1.27 1.27))))
@@ -12572,7 +12536,7 @@
     (property "Value" "Crystal_32kHz" (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "OwnLib:Crystal_C26-LF_D2.1mm_L6.5mm_Horizontal_1EP_style1" (at -0.635 -6.35 0)
+    (property "Footprint" "OwnLib:Crystal_D2.1mm_L6.2mm_Horizontal_SMD" (at -0.635 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.de/datasheet/2/122/ECS_3x8X_2x6X_1X5X-5572.pdf" (at -0.635 -4.445 0)
