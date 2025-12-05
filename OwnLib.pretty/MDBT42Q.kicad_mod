@@ -125,20 +125,6 @@
     (solder_mask_margin 0.102) (tstamp af9d829a-132b-4bf8-85ff-bf14a6193994))
   (pad "41" smd rect (at 2.9 -1.85) (size 1 0.4) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp 3e8f4e89-6512-456b-8648-960c1a1ccb19))
-  (zone (net 0) (net_name "") (layer "F.Cu") (tstamp 1812b29a-b921-430e-834b-da156fd8f981) (hatch full 0.508)
-    (connect_pads (clearance 0))
-    (min_thickness 0.01) (filled_areas_thickness no)
-    (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints allowed))
-    (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy -5.3 -8)
-        (xy 5.3 -8)
-        (xy 5.3 -4.2)
-        (xy -5.3 -4.2)
-      )
-    )
-  )
   (zone (net 0) (net_name "") (layer "F.Cu") (tstamp ca0b608f-ffbb-4a6a-98b1-9f3ed64e9031) (hatch full 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.01) (filled_areas_thickness no)
@@ -147,8 +133,8 @@
     (polygon
       (pts
         (xy -0.5 -4.2)
-        (xy 3.9 -4.2)
-        (xy 3.9 -1.1)
+        (xy 1.95 -4.2)
+        (xy 1.95 -1.1)
         (xy -0.5 -1.1)
       )
     )
@@ -162,8 +148,8 @@
       (pts
         (xy -5.3 -8)
         (xy 5.3 -8)
-        (xy 5.3 -4.2)
-        (xy -5.3 -4.2)
+        (xy 5.3 -4.7)
+        (xy -5.3 -4.7)
       )
     )
   )
